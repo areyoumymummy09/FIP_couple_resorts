@@ -1,0 +1,1 @@
+# FIP_couple_resorts
