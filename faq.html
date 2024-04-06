@@ -42,6 +42,7 @@
         <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo" />
       </div>
     </header>
+
     <!-- Main Hero -->
 
     <section id="hero-faq" class="grid-con">
@@ -50,75 +51,77 @@
         <p>Book Now</p>
       </div>
 
-      <section id="hero-heading-box" class="col-span-full">
-        <h2 class="hero-img-h2"></h2>
-        <span>Couples Resort</span><br />
-        FAQ
+      <section id="hero-faq-con" class="col-span-full">
+        <h2 class="hero-img-h2">
+          <span>Couples Resort</span><br />
+          FAQ
+        </h2>
       </section>
     </section>
 
-    <div id="faq-list- " class="grid-con">
-      <div class="col-span-full"></div>
+    <section id="faq-list" class="grid-con">
       <section class="col-span-full faq-items line-separator">
-        <details>
-          <summary>Check-in/Check-out</summary>
-        </details>
+        <div class="contatiner box">
+          <details>
+            <summary>Check-in/Check-out</summary>
+          </details>
+        </div>
       </section>
 
       <section class="col-span-full faq-items">
-        <details>
-          <summary>All-Inclusive</summary>
-        </details>
+        <div class="contatiner box">
+          <details>
+            <summary>All-Inclusive</summary>
+          </details>
+        </div>
       </section>
 
       <section class="col-span-full faq-items">
-        <details>
-          <summary>Dining Hours &amp; Dress Code</summary>
-        </details>
+        <div class="contatiner box">
+          <details>
+            <summary>Dining Hours &amp; Dress Code</summary>
+          </details>
+        </div>
       </section>
 
       <section class="col-span-full faq-items">
-        <details>
-          <summary>Amenities In-room</summary>
-          <div id="faq-text-con">
-            <div id="faq-list-group1">
-              <ul>
-                <li><a href="#">Private Out Door Hot Tubs</a></li>
-                <li>
-                  <a href="#"
-                    >Fibre-Optic Internet - Free WIFI 50 inch Television</a
-                  >
-                </li>
-                <li><a href="#">Free - Netflix Video Streaming</a></li>
-                <li><a href="#">Walkout Spacious Lakeside Balcony</a></li>
-                <li><a href="#">European Shower (2 or more heads)</a></li>
-              </ul>
+        <div class="contatiner box">
+          <details>
+            <summary>Amenities In-room</summary>
+            <div id="faq-text-con">
+              <div id="faq-list-group1">
+                <ul>
+                  <li><a href="#">Private Out Door Hot Tubs</a></li>
+                  <li>
+                    <a href="#"
+                      >Fibre-Optic Internet - Free WIFI 50 inch Television</a
+                    >
+                  </li>
+                  <li><a href="#">Free - Netflix Video Streaming</a></li>
+                  <li><a href="#">Walkout Spacious Lakeside Balcony</a></li>
+                  <li><a href="#">European Shower (2 or more heads)</a></li>
+                </ul>
+              </div>
             </div>
-
-            <div id="faq-list-group2">
-              <ul>
-                <li><a href="#">Private Out Door Hot Tubs</a></li>
-                <li>
-                  <a href="#"
-                    >Fibre-Optic Internet - Free WIFI 50 inch Television</a
-                  >
-                </li>
-                <li><a href="#">Free - Netflix Video Streaming</a></li>
-                <li><a href="#">Walkout Spacious Lakeside Balcony</a></li>
-                <li><a href="#">European Shower (2 or more heads)</a></li>
-              </ul>
-            </div>
-          </div>
-        </details>
+          </details>
+        </div>
       </section>
+    </section>
+
+    <!--Contact Us-->
+
+    <div id="contact-con">
+      <div id="contact-us-hero" class="grid-con">
+        <div id="contact-us-hero-con" class="col-span-full">
+          <h2 class="hero-img-h2">
+            <span>Couples Resort</span><br />
+            Contact Us
+          </h2>
+        </div>
+      </div>
     </div>
 
-    <section class="grid-con">
-      <section id="hero-heading-Contact" class="col-span-full">
-        <h2 class="hero-img-h2"></h2>
-        <span>Couples Resort</span><br />
-        Contact Us
-      </section>
+    <div class="grid-con">
       <h2 class="hidden">Contact Information</h2>
       <div id="contact-hero-text" class="line-separator col-span-full">
         <p>
@@ -129,6 +132,7 @@
           free number listed below.
         </p>
       </div>
+
       <div id="contact-hero-address" class="col-span-full">
         <h3>Couples Resort (Inc.)</h3>
         <p>
@@ -139,11 +143,12 @@
         <p>
           Toll Free:+1 877 201-1156<br />
           FAX:+1 613 638 2217<br />
-          E-mail: info[at]coupleresort.com
+          E-mail: info&#64;coupleresort.com
         </p>
       </div>
+
       <div id="contact-hero-form" class="col-span-full">
-        <form action="#" method="post" enctype="text/plain">
+        <form action="#" method="post">
           <input
             name="fullName"
             type="text"
@@ -160,10 +165,16 @@
             name="msg"
             placeholder="Leave your questions in here... "
           ></textarea>
-          <input name="submit" type="submit" value="Send" />
+          <section class="checkbox-section">
+            <input type="checkbox" id="terms-input" />
+            <label for="terms-input">I agree with terms</label><br />
+            <input type="checkbox" id="subscribe-input" />
+            <label for="subscribe-input">Subscribe our newsletter</label>
+          </section>
+          <input type="submit" value="Send" />
         </form>
       </div>
-    </section>
+    </div>
   </body>
 
   <footer id="footer-hero" class="grid-con">
@@ -175,9 +186,9 @@
         K0M 2K0
       </p>
       <p>
-        Toll Free:+1 877 201-1156<br />
-        FAX:+1 613 638 2217<br />
-        E-mail: info@coupleresort.com
+        Toll Free: +1 877 201-1156<br />
+        FAX: +1 613 638 2217<br />
+        E-mail: info&#64;coupleresort.com
       </p>
     </section>
     <div id="footer-privacy" class="col-span-full line-separator">
