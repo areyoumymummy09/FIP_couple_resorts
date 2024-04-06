@@ -510,3 +510,14 @@ textarea {
 #hero-img-p {
   align-self: end;
 }
+
+#water-activities {
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.col-span-full-activities {
+  color: #707070;
+  font-size: 12px;
+}
