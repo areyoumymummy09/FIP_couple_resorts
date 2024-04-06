@@ -35,7 +35,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-label::after {
+.terms-label::after {
   content: " (Mandatory)";
   width: 25px;
   height: 25px;
