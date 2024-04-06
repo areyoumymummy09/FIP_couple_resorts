@@ -35,7 +35,12 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-input,
+label::after {
+  content: " (Mandatory)";
+  width: 25px;
+  height: 25px;
+}
+
 textarea {
   display: block;
   margin: 0;
@@ -322,7 +327,7 @@ textarea {
 
 .faq-items li {
   padding: 8px 0;
-  border-bottom: 1px solid #9a2018;
+  border-bottom: 1px solid white;
 }
 
 .faq-items a {
@@ -520,4 +525,63 @@ textarea {
 .col-span-full-activities {
   color: #707070;
   font-size: 12px;
+}
+
+/*FAQ*/
+
+#hero-faq {
+  background: url(../images/hp-mobl-sec-03.jpg) no-repeat;
+  height: 200px;
+}
+
+#hero-faq-con {
+  align-self: end;
+}
+
+#contact-us-hero {
+  background: url(../images/why-choose-us-hero.jpg) no-repeat;
+  height: 200px;
+}
+
+#contact-us-hero-con {
+  align-self: end;
+}
+
+.hero-faq-img-h2 {
+  background: rgb(255, 255, 255);
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+/*Contact Us*/
+
+.container {
+  display: flex;
+}
+
+.box {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #9a2018;
+  color: white;
+}
+
+.terms-section {
+  font-family: "Times New Roman", Times, serif;
+}
+/* Define the animation */
+input[type="submit"] {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 100% 50%;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: 100% 50%;
+  }
 }
