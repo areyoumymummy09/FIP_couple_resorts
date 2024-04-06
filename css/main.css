@@ -456,3 +456,57 @@ textarea {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/*All -inclusive Page*/
+#hero-all-inclusive {
+  background: url(../images/hp-mobl-all_in_hero.jpg) no-repeat;
+  height: 200px;
+}
+#summary-rooms {
+  padding-top: 20px;
+}
+
+#summary-rooms ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#summary-rooms ul li {
+  margin-bottom: 15px;
+}
+
+#summary-rooms ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#summary-rooms ul li a.selected {
+  border-left: #9a2018 solid 5px;
+}
+
+#rooms-details-hero {
+  background: url(../images/hp-mobl-hero_2.jpg) no-repeat;
+  height: 200px;
+}
+
+#rooms-details-con {
+  align-self: end;
+}
+
+#amentities-hero {
+  background: url(../images/hp-mobl-sec-02.jpg) no-repeat;
+  height: 200px;
+}
+
+#amentities-hero-con {
+  align-self: end;
+}
+
+#package-p-summary {
+  background: url(../images/hp-mobl-sec-04.jpg) no-repeat;
+  height: 200px;
+}
+
+#hero-img-p {
+  align-self: end;
+}
