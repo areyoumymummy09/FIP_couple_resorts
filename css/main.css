@@ -430,3 +430,29 @@ textarea {
   line-height: 18px;
   font-size: 11px;
 }
+
+/*Packages*/
+
+#packages-hero-header-1 {
+  background: url(../images/hp-mobl-sec-04.jpg) no-repeat;
+  height: 200px;
+}
+
+.read-more {
+  padding: 12px 28px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  transition: all 200ms ease-in;
+  width: 150px;
+  align-self: flex-end;
+}
+
+.read-more:hover {
+  background-color: rgb(196, 28, 28);
+}
+
+#hero-summary_1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
